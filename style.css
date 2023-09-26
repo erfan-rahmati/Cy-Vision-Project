@@ -11,7 +11,7 @@ body {
 /* Start Project */
 
 .container {
-    max-width: 60rem;
+    width: 60rem;
     margin-right: auto;
     margin-left: auto;
     padding-right: 1rem;
@@ -112,18 +112,20 @@ body {
 
 /* Start Main */
 
+/* Start Main works-top */
+
 .main {
     direction: rtl;
 }
 
-.works {
+.works-top {
     padding: 2rem 0;
     display: flex;
 }
 
 .works__text {
     color: #4E4E4E;
-    font-family: "IRANSans-Regular", Helvetica;
+    font-family: "Iranian Sans";
     font-size: 20px;
     font-weight: 400;
     top: 0;
@@ -132,7 +134,7 @@ body {
 
 .works__title {
     color: #000000;
-    font-family: "IRANSans-Regular", Helvetica;
+    font-family: "Iranian Sans";
     font-size: 34px;
     font-weight: 400;
     margin-bottom: 5rem;
@@ -202,4 +204,60 @@ body {
     color: #868686;
     line-height: 1.5rem;
     padding-bottom: 1.5rem;
+}
+
+/* Start Main works-bottom */
+
+.works-bottom {
+    padding: 2rem 0;
+    display: flex;
+}
+
+.works-bottom__text {
+    font-family: "Iranian Sans";
+    color: #4E4E4E;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.works-bottom__title {
+    font-family: "Iranian Sans";
+    color: #000000;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.works-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.works-box__right {
+    padding-top: 8rem;
+    justify-content: space-between;
+}
+
+.box-shadow1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 408px;
+    height: 112px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.works-box__text {
+    padding-top: 0.8rem;
+}
+
+.works-box__img1 {
+    width: 80px;
+    height: 80px;
+}
+
+.works-box__text {
+    width: 287px;
+    height: 52px;
 }
