@@ -2,24 +2,12 @@ html {
     box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
 body {
     font-family: "Iranian Sans";
+    margin: 0;
+    padding: 0;
 }
-
-.header {
-    background-color: #E8F2FF;
-    width: 100%;
-    height: 856px;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
+/* Start Project */
 
 .container {
     max-width: 60rem;
@@ -27,6 +15,14 @@ body {
     margin-left: auto;
     padding-right: 1rem;
     padding-left: 1rem;
+}
+
+.header {
+    background-color: #E8F2FF;
+    width: 100%;
+    height: 650px;
+    top: 0;
+    left: 0;
 }
 
 .header-top {
@@ -68,4 +64,128 @@ body {
     text-decoration: none;
     padding: 0.8rem 1.5rem;
     border-radius: 3.125rem;
+}
+
+/* Header Bottom */
+
+.header-bottom {
+    margin-top: 2rem;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-content__left {
+    flex-basis: 50%;
+    order: 1;
+}
+
+.header-content__right {
+    flex-basis: 50%;
+}
+
+.header-content__wrapper {
+    max-width: 30rem;
+}
+
+.header-content__title {
+    color: #000000;
+    font-family: "Iranian Sans";
+    line-height: 3rem;
+    font-size: 1.8rem;
+    direction: rtl;
+}
+
+.header-content__text {
+    color: #000000;
+    margin-top: 1.5rem;
+    line-height: 1.5rem;
+    direction: rtl;
+}
+
+.header-content__img {
+    width: 65%;
+}
+
+/* Start Main */
+
+.main {
+    direction: rtl;
+}
+
+.works {
+    padding: 2rem 0;
+    display: flex;
+}
+
+.works__text {
+    color: #4E4E4E;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+}
+
+.works__title {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+
+.works-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.works-content__img1 {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.works-content__img2 {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.works-content__img3 {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.works-content__img4 {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.works-content__title {
+
+}
+
+.works-content__text1 {
+    width: 444px;
+    color: #868686;
+    line-height: 1.5rem;
+}
+
+.works-content__text2 {
+    width: 444px;
+    color: #868686;
+    line-height: 1.5rem;
+}
+
+.works-content__text3 {
+    width: 444px;
+    color: #868686;
+    line-height: 1.5rem;
+}
+
+.works-content__text4 {
+    width: 444px;
+    color: #868686;
+    line-height: 1.5rem;
 }
