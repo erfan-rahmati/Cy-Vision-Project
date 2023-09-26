@@ -235,7 +235,7 @@ body {
 }
 
 .works-box__right {
-    padding-top: 8rem;
+    padding-top: 9rem;
     justify-content: space-between;
 }
 
@@ -260,4 +260,9 @@ body {
 .works-box__text {
     width: 287px;
     height: 52px;
+}
+
+.works-box__img2 {
+    width: 372px;
+    height: 416px;
 }
