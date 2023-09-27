@@ -344,3 +344,37 @@ body {
     font-family: "Iranian Sans";
     padding-bottom: 0.2rem;
 }
+
+/* Start Main box-text */
+
+.box-text__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+.right-content__text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #4E4E4E;
+    width: 366px;
+    font-family: "Iranian Sans";
+}
+
+.right-content__title {
+    width: 504px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Iranian Sans";
+}
+
+.left-content__text {
+    width: 424px;
+    height: 168px;
+    color: #4E4E4E;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 4rem;
+    font-family: "Iranian Sans";
+}
