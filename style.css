@@ -135,7 +135,7 @@ body {
 .works__title {
     color: #000000;
     font-family: "Iranian Sans";
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 400;
     margin-bottom: 5rem;
 }
@@ -298,4 +298,49 @@ body {
     width: 287px;
     height: 52px;
     padding-top: 0.8rem;
+}
+
+/* Start Main seo-box */
+
+.seo-box {
+    background-color: #3A56E7;
+    width: 100%;
+    height: 230px;
+}
+
+.seo-box__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.seo-box__text {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: "Iranian Sans";
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+
+.seo-bottom {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 11rem;
+    height: 45px;
+    border-radius: 24px;
+    box-shadow: 0px 5px 15px 0px rgba(255, 255, 255, 0.35);
+}
+
+.seo-box__link {
+    text-decoration: none;
+    color: #292D32;
+    font-family: "Iranian Sans";
+    padding-bottom: 0.2rem;
 }
