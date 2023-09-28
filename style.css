@@ -396,68 +396,57 @@ body {
 
 .box-info__wrapper {
     display: flex;
-    justify-content: space-between;
+    gap: 170px;
+}
+
+.box-languages__right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.box-Tools__left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex-grow: 1;
 }
 
 .box-languages__title {
     font-size: 22px;
     line-height: 30px;
     font-weight: 400;
+    margin: 0;
     font-family: "Iranian Sans";
     color: #000000;
 }
 
-.box-language__node {
+.box-language__items {
     display: flex;
-    align-content: center;
-    padding-top: 1.5rem;
-    padding-bottom: 2rem;
-}
-
-.box-language__java {
-    display: flex;
-    align-content: center;
-    padding-bottom: 2rem;
-}
-
-.box-language__php {
-    display: flex;
-    align-content: center;
-    padding-bottom: 2rem;
+    align-items: center;
+    gap: 15px;
 }
 
 .box-tools__title {
     font-size: 22px;
     line-height: 30px;
     font-weight: 400;
+    margin: 0;
     font-family: "Iranian Sans";
     color: #000000;
 }
 
-.box-tools__git {
+.box-tools__items {
     display: flex;
-    align-content: center;
-    padding-top: 1.5rem;
-    padding-bottom: 2rem;
-}
-
-.box-tools__code {
-    display: flex;
-    align-content: center;
-    padding-bottom: 2rem;
-}
-
-.box-tools__postman {
-    display: flex;
-    align-content: center;
-    padding-bottom: 2rem;
+    align-items: center;
+    gap: 15px;
 }
 
 .box-languages__text {
     font-size: 20px;
     font-weight: 400;
     color: #000000;
-    padding-right: 1rem;
+    margin: 0;
     font-family: "IRANSans-Regular", Helvetica;
 }
 
@@ -465,6 +454,6 @@ body {
     font-size: 20px;
     font-weight: 400;
     color: #000000;
-    padding-right: 1rem;
+    margin: 0;
     font-family: "IRANSans-Regular", Helvetica;
 }
