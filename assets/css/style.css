@@ -536,3 +536,169 @@ body {
     justify-content: center;
     border-color: #EFEFEF;
 }
+
+/* Start Main box-answer */
+
+.box-answer {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.box-answer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.box-img__background1 {
+    background-color: #0277BD;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-img__background2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-img__background3 {
+    background-color: #00B8D4;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-img__background4 {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-img__background5 {
+    background-color: #006064;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-noghteh {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-answer__title {
+    margin: 0;
+    width: 140px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-answer__title1 {
+    margin: 0;
+    width: 140px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-answer__title2 {
+    margin: 0;
+    width: 140px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-answer__text {
+    margin: 0;
+    width: 180px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-answer__text1 {
+    margin: 0;
+    width: 180px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-answer__text2 {
+    margin: 0;
+    width: 180px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.duty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.technical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.manager {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.proposal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
