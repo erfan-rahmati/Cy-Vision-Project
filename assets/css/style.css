@@ -181,6 +181,7 @@ body {
     line-height: 3rem;
     font-size: 1.8rem;
     direction: rtl;
+    font-weight: 400;
     padding: 0;
     margin: 0;
 }
@@ -234,7 +235,7 @@ body {
 .works__title {
     color: #000000;
     font-size: 30px;
-    font-weight: 450;
+    font-weight: 400;
     margin: 0;
     padding: 0;
 }
@@ -299,6 +300,7 @@ body {
     display: inline-flex;
     flex-direction: column;
     font-size: 18px;
+    font-weight: 450;
     margin: 0;
     padding: 0;
     justify-content: center;
@@ -365,7 +367,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 150px;
 }
 
 .works-box__item:nth-child(even) {
@@ -487,6 +489,7 @@ body {
 
 .seo-box__link {
     text-decoration: none;
+    font-weight: 450;
     color: #292d32;
     font-size: 15px;
 }
@@ -517,6 +520,7 @@ body {
 .right-content__title {
     width: 504px;
     color: #000000;
+    font-weight: 400;
     margin: 0;
 }
 
@@ -524,6 +528,7 @@ body {
     display: flex;
     align-items: center;
     color: #4e4e4e;
+    font-weight: 350;
     font-size: 20px;
     line-height: 1.8rem;
     margin: 0;
@@ -784,6 +789,7 @@ body {
 
 .box-answer__title {
     margin: 0;
+    font-weight: 500;
     width: 140px;
     height: 28px;
     display: flex;
@@ -794,6 +800,7 @@ body {
 .box-answer__title1 {
     margin: 0;
     width: 140px;
+    font-weight: 500;
     height: 28px;
     display: flex;
     align-items: center;
@@ -802,6 +809,7 @@ body {
 
 .box-answer__title2 {
     margin: 0;
+    font-weight: 500;
     width: 140px;
     height: 28px;
     display: flex;
@@ -903,6 +911,7 @@ body {
 
 .work-challenge__title {
     width: 373px;
+    font-weight: 400;
     margin: 0;
     font-size: 30px;
 }
@@ -928,6 +937,7 @@ body {
 
 .work-img__title {
     width: 160px;
+    font-weight: 450;
     height: 24px;
     margin: 0;
 }
@@ -973,6 +983,7 @@ body {
 .price-right__title {
     width: 468px;
     height: 80px;
+    font-weight: 450;
     font-size: 30px;
     margin: 0;
 }
@@ -1040,6 +1051,7 @@ body {
 
 .footer-title {
     color: #ffffff;
+    font-weight: 400;
     direction: rtl;
     width: 210px;
     margin: 0;
@@ -1112,12 +1124,14 @@ body {
 
 .title-Company {
     color: #ffffff;
+    font-weight: 400;
     direction: rtl;
     margin: 0;
 }
 
 .text-Company {
     color: #ffffff;
+    font-weight: 400;
     direction: rtl;
     margin: 0;
 }
@@ -1132,12 +1146,14 @@ body {
 
 .title-Services {
     color: #ffffff;
+    font-weight: 400;
     direction: rtl;
     margin: 0;
 }
 
 .text-Services {
     color: #ffffff;
+    font-weight: 400;
     direction: rtl;
     margin: 0;
 }
@@ -1152,12 +1168,14 @@ body {
 
 .title-workflow {
     color: #ffffff;
+    font-weight: 400;
     direction: rtl;
     margin: 0;
 }
 
 .text-workflow {
     color: #ffffff;
+    font-weight: 400;
     direction: rtl;
     margin: 0;
 }
@@ -1172,12 +1190,14 @@ body {
 
 .title-Technology {
     color: #ffffff;
+    font-weight: 400;
     direction: ltr;
     margin: 0;
 }
 
 .text-Technology {
     color: #ffffff;
+    font-weight: 450;
     direction: ltr;
     margin: 0;
 }
@@ -1219,16 +1239,19 @@ body {
 
 .footer-bottom__title1 {
     color: #ffffff;
+    font-weight: 400;
     margin: 0;
 }
 
 .footer-bottom__title2 {
     color: #ffffff;
+    font-weight: 400;
     margin: 0;
 }
 
 .footer-bottom__title3 {
     color: #FFFFFF;
+    font-weight: 400;
     margin: 0;
 }
 
