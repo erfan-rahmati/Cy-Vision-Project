@@ -580,7 +580,21 @@ body {
     gap: 15px;
 }
 
+.box-tools__items2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 .box-languages__text {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0;
+    font-family: "IRANSans-Regular", Helvetica;
+}
+
+.box-languages__text1  {
     font-size: 20px;
     font-weight: 400;
     color: #000000;
@@ -594,6 +608,22 @@ body {
     color: #000000;
     margin: 0;
     font-family: "IRANSans-Regular", Helvetica;
+}
+
+.box-tools__text2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    margin: 0;
+    font-family: "IRANSans-Regular", Helvetica;
+}
+
+.box-languages__img2 {
+    display: none;
+}
+
+.box-languages__text2 {
+    display: none;
 }
 
 /* Start Main box-question */
@@ -1501,6 +1531,64 @@ body {
     .seo-box {
         height: 190px;
     }
+
+    .box-languages__title {
+        width: 334px;
+        height: 30px;
+    }
+
+    .box-tools__title {
+        width: 345px;
+        height: 30px;
+    }
+
+    .box-tools__items2 {
+        display: none;
+    }
+
+    .box-languages__text {
+        display: none;
+    }
+
+    .box-languages__img1 {
+        display: none;
+    }
+
+    .box-languages__img2 {
+        display: flex;
+    }
+
+    .box-languages__text2 {
+        display: flex;
+        font-size: 20px;
+        font-weight: 400;
+        color: #000000;
+        margin: 0;
+        font-family: "IRANSans-Regular", Helvetica;
+    }
+
+    .image-language {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F7F8FA;
+        border-radius: 15px;
+    }
+
+    .box-info__wrapper {
+        max-width: 990px;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0;
+    }
+
+    .box-Tools__left {
+        height: 330px;
+        justify-content: flex-start;
+        flex-grow: 0;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1618,6 +1706,22 @@ body {
 
     .seo-box__link {
         font-size: 14px;
+    }
+
+    .box-info__wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .box-language__items {
+        width: 250px;
+        justify-content: center;
+    }
+
+    .box-tools__items {
+        width: 250px;
+        justify-content: center;
     }
 
 }
@@ -2084,5 +2188,46 @@ body {
 
     .right-content__text {
         font-size: 14px;
+    }
+
+    .seo-text {
+        width: 329px;
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 400;
+        direction: rtl;
+    }
+
+    .seo-wrapper__bt {
+        max-width: 360px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .seo-box {
+        height: 185px;
+        max-width: 360px;
+    }
+
+    .box-languages__title {
+        width: 240px;
+        font-size: 16px;
+        letter-spacing: 0.03px;
+        font-weight: 500;
+    }
+
+    .box-tools__title {
+        width: 240px;
+        font-size: 16px;
+        letter-spacing: 0.03px;
+        font-weight: 500;
+    }
+
+    .box-language__items {
+        width: 150px;
+    }
+
+    .box-tools__items {
+        width: 150px;
     }
 }
