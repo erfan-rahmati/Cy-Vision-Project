@@ -1679,6 +1679,24 @@ body {
         font-weight: 400;
         width: auto;
     }
+
+    .work-challenge__box {
+        width: 379px;
+    }
+
+    .box-img, .work-img__text {
+        width: 335px;
+    }
+
+    .price-left {
+        width: 230px;
+        height: 245px;
+    }
+
+    .price-left__img {
+        width: 230px;
+        height: 245px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1812,6 +1830,16 @@ body {
     .box-tools__items {
         width: 250px;
         justify-content: center;
+    }
+
+    .price-right__title {
+        width: 360px;
+        font-size: 26px;
+    }
+
+    .price-right__text {
+        width: 360px;
+        font-size: 15px;
     }
 
 }
@@ -2042,6 +2070,16 @@ body {
 
     .box-answer__title2 {
         width: 155px;
+    }
+
+    .price-wrapper {
+        flex-direction: column-reverse;
+        height: 600px;
+        justify-content: space-evenly;
+    }
+
+    .price-right {
+        align-items: center;
     }
 }
 
@@ -2354,5 +2392,33 @@ body {
 
     .box-noghteh2 {
         transform: rotate(90deg);
+    }
+
+    .work-challenge__box {
+        width: 328px;
+    }
+
+    .box-img, .work-img__text {
+        width: 300px;
+    }
+
+    .price-right__title {
+        width: 330px;
+        font-size: 22px;
+    }
+
+    .price-right__text {
+        width: 273px;
+        height: 100px;
+        font-size: 14px;
+    }
+
+    .price-right__image {
+        width: 145px;
+        height: 45px;
+    }
+
+    .price-wrapper {
+        align-items: center;
     }
 }
